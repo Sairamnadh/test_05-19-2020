@@ -9,7 +9,7 @@ permissions:
 jobs:
   terraform:
     runs-on: ubuntu-latest
-
+    environment: aws
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
